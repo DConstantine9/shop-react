@@ -11,6 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" exact element={<ProductListing />} />
+          <Route path="/shop-react" exact element={<ProductListing />} />
           <Route path="/product/:productId" element={<ProductDetail />} />
           <Route>404 not found</Route>
         </Routes>
