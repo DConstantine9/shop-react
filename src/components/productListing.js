@@ -24,7 +24,7 @@ export default function ProductListing() {
   }, [])
   
   return (
-    <div className='ui grid container'>
+    <div className='listing'>
       <ProductComponent />
     </div>
   )

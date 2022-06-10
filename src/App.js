@@ -6,9 +6,9 @@ import ProductDetail from './components/productDetail';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Router>
-        {/* <Header /> */}
+        <Header />
         <Routes>
           <Route path="/" exact element={<ProductListing />} />
           <Route path="/product/:productId" element={<ProductDetail />} />

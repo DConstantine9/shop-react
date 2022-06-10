@@ -6,7 +6,7 @@ export default function ProductComponent() {
   const products = useSelector((state) => state.allProducts.products)
   const renderList = products.map((product) => {
     return (
-      <div className='four columl wide' key={product.id}>
+      <div className='product' key={product.id}>
         <Link to={`/product/${product.id}`}>
           <div className='ui link cards'>
             <div className='card'>
